@@ -74,4 +74,3 @@ contactBtn.addEventListener('click', () => {
   formContainer.style.display = 'none';
   contactInfo.style.display = 'flex';
 });
-
