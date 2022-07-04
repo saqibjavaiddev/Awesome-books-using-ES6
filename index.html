@@ -1,69 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awesome Books with ES6</title>
     <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.0.2/build/global/luxon.min.js"></script>
 </head>
-  <body>
-
+<body>
     <main>
-    <section class="header">
-        <nav class="navbar">
-            <a href="#" class="home">Awesome Books</a>
-            <ul class="navbar-list">
-                <li class="list"><a href="#">List </a></li>
-                <li class="new"><a href="#">Add New</a></li>
-                <li class="contact"><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </section>
-    <div class="date">
-        <span id="date-time"></span>
-    </div>
-    <div class="container">
-        <h1 class="pageTitle">All awesome books</h1>
-        <div id="book-list" class="book-table">
-            
+        <!-- ==== Header Section ==== -->
+        <section class="header">
+            <nav class="navbar">
+                <a href="#" class="home">Awesome Books</a>
+                <ul class="navbar-list">
+                    <li class="list"><a href="#">List </a></li>
+                    <li class="new"><a href="#">Add New</a></li>
+                    <li class="contact"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        <!-- ==== End Header Section ==== -->
+
+        <!-- ==== Display Date & Time ==== -->
+        <div class="date">
+            <span id="date-time"></span>
         </div>
+        <!-- ==== End Display Date & Time ==== -->
 
-        <hr class="separator"> 
-    </div>
- 
-    <div class="formSection">
-        <h1>Add a new book</h1>
-        <form id=book-form>
-            <input type="text" placeholder="Title" id="title" size="40" class="bookname">
-            <br><br>
-            <input type="text" placeholder="Author" id="author" size="40" class="authorname">
-            <br><br>
-            <input type="submit" value="ADD" id="submit" class="submitbtn">
-        </form>
-   </div>
-   <section class="contact-page">
+        <!-- ==== List of Books Section ==== -->
+        <div class="container">
+            <h1 class="pageTitle">All awesome books</h1>
+            <div id="book-list" class="book-table">
 
-    <h1>Contact Information</h1>
+            </div>
 
-    <div>
-        <p>Do you have any questions or you just want to say "Hello"?</p>
-        <p>You can reach out to us!</p>
-    </div>
+            <hr class="separator">
+        </div>
+        <!-- ==== End List of Books Section ==== -->
 
-    <ul>
-        <li>- Our email: mail@saqibjavaid.com</li>
-        <li>- Our phone number : 0092300383714</li>
-        <li>- Our address : Streetname Alexibaer, 63000 City,Country.</li>
-    </ul>
+        <!-- ==== Add New Book Section ==== -->
+        <div class="formSection">
+            <h1>Add a new book</h1>
+            <form id=book-form>
+                <input type="text" placeholder="Title" id="title" size="40" class="bookname">
+                <br><br>
+                <input type="text" placeholder="Author" id="author" size="40" class="authorname">
+                <br><br>
+                <input type="submit" value="ADD" id="submit" class="submitbtn">
+            </form>
+        </div>
+        <!-- ==== End Add New Book Section ==== -->
+
+        <!-- ==== Contact Information Section ==== -->
+        <section class="contact-page">
+
+            <h1>Contact Information</h1>
+
+            <div>
+                <p>Do you have any questions or you just want to say "Hello"?</p>
+                <p>You can reach out to us!</p>
+            </div>
+
+            <ul>
+                <li>- Our email: mail@saqibjavaid.com</li>
+                <li>- Our phone number : 0092300383714</li>
+                <li>- Our address : Streetname Alexibaer, 63000 City,Country.</li>
+            </ul>
 
 
-</section>
-</main>
-<footer>
-    <p>Copyright</p>
-</footer>
+        </section>
+        <!-- ==== End Contact Information Section ==== -->
+    </main>
+    <!-- ==== Footer Section ==== -->
+    <footer>
+        <p>Copyright</p>
+    </footer>
+    <!-- ==== End Section ==== -->
     </div>
     <script src="./index.js" type="module"></script>
-  </body>
+</body>
+
 </html>
