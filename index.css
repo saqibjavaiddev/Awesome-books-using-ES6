@@ -13,6 +13,7 @@
 h1 {
   margin-bottom: 10px;
 }
+
 /* Books Table & New Book Form */
 .book-table {
   border: 3px solid black;
@@ -53,6 +54,7 @@ form > *:last-child {
 .remove-btn {
   width: 17%;
 }
+
 .separator {
   border: 1px solid black;
   margin: 40px auto;
@@ -69,6 +71,7 @@ form > *:last-child {
   border: 2px solid black;
   padding: 4px;
 }
+
 /* Top Navigation */
 nav {
   display: flex;
@@ -106,6 +109,7 @@ nav a {
   border-right: 2px solid black;
   margin: 10px;
 }
+
 /* Contact Section */
 .contact-page {
   display: none;
@@ -116,6 +120,7 @@ nav a {
 .contact-page ul {
   list-style-type: none;
 }
+
 /* Footer */
 footer {
   border: 2px solid black;
@@ -130,6 +135,7 @@ footer {
 .addnewBook {
   display: none;
 }
+
 /* Display Date & Time */
 .date {
   display: flex;
